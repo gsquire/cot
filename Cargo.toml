@@ -1,6 +1,11 @@
 [package]
 name = "cot"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Garrett Squire <garrettsquire@gmail.com>"]
+description = "A blend of comm(1) and cut(1)"
+repository = "https://github.com/gsquire/cot"
+readme = "README.md"
+license = "MIT"
 
 [dependencies]
+clap = "2.31"
